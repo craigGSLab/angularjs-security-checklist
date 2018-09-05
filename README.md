@@ -26,11 +26,21 @@ Given below is a list of things you could keep in mind that would help write mor
 
 ### 2. Avoid generating templates on the server based on user generated input.
 
+
 ### 3. Avoid dynamically generating templates on the sever. 
 Templates should be defined on the client and can be populated via data bindings.
 
+
 ### 4. Do not write user input to the DOM before Angular runs on the webpage.
 
+### 5. Be careful when inserting HTML into the DOM.
+- Avoid diabling escaping for user input - $sce.enabled(false)
+- Avoid using element.html() to insert HTML.
+- Avoid using ng-bind-html and 'trustAsHtml'.
+- Use ng-bind-html along with the NGSanitize module.
+
+### 6. Don't use user input in url based directives:
+This includes ngSrc, ngInclude, ngHref
 
 
 References:
