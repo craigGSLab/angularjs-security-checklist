@@ -48,6 +48,7 @@ ___
 
 References:
 --------------
+- https://docs.angularjs.org/guide/security
 - https://www.owasp.org/images/6/6e/Benelus_day_20161125_S_Lekies_Securing_AngularJS_Applications.pdf
 - https://www.owasp.org/images/4/46/OWASPLondon20170727_AngularJS.pdf
 
