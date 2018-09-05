@@ -6,7 +6,8 @@ Given below is a list of things you could keep in mind that would help write mor
 
 1. Be careful when using user input in  Angular expressions. Avoid using untrusted user input with the following:
 
-*Methods:*
+Methods:
+--------------
 - $eval
 - $evalAsync
 - $watch
@@ -15,10 +16,12 @@ Given below is a list of things you could keep in mind that would help write mor
 - $applyAsync
 - $watchCollection
 
-*Filters:*
+Filters:
+--------------
 - expressions used with the 'orderBy' filter.
 
-*Services:*
+Services:
+---------------
 - $parse
 - $compile
 - $interpolate
