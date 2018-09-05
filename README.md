@@ -6,22 +6,22 @@ Given below is a list of things you could keep in mind that would help write mor
 
 1. Be careful when using user input in  Angular expressions. Avoid using untrusted user input with the following:
 
-...###### Methods:
-...- $eval
-...- $evalAsync
-...- $watch
-...- $watchGroup
-...- $apply
-...- $applyAsync
-...- $watchCollection
+###### Methods:
+- $eval
+- $evalAsync
+- $watch
+- $watchGroup
+- $apply
+- $applyAsync
+- $watchCollection
 
-...###### Filters:
-...- expressions used with the 'orderBy' filter.
+###### Filters:
+- expressions used with the 'orderBy' filter.
 
-...###### Services:
-...- $parse
-...- $compile
-...- $interpolate
+###### Services:
+- $parse
+- $compile
+- $interpolate
 
 
 2. Avoid generating templates on the server based on user generated input.
