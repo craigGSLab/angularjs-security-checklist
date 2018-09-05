@@ -43,6 +43,9 @@ Templates should be defined on the client and can be populated via data bindings
 This includes ngSrc, ngInclude, ngHref
 
 
+___
+
+
 References:
 --------------
 - https://www.owasp.org/images/6/6e/Benelus_day_20161125_S_Lekies_Securing_AngularJS_Applications.pdf
